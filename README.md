@@ -12,7 +12,7 @@ npm i @heiwa4126/hello1
 CommonJS の場合 - `hello` が出力される。
 
 ```javascript
-const hello1 = require("@heiwa4126/hello1");
+const { hello1 } = require("@heiwa4126/hello1");
 console.log(hello1());
 ```
 
