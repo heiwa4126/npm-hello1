@@ -1,0 +1,32 @@
+{
+  "name": "@heiwa4126/hello1",
+  "version": "1.0.0",
+  "description": "an module example.",
+  "scripts": {
+    "test": "jest",
+    "example:hello1_cjs": "node examples/hello1.js",
+    "example:hello1_mjs": "node examples/hello1.mjs"
+  },
+  "author": "heiwa4126@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.5.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/heiwa4126/npm-hello1"
+  },
+  "exports": {
+    "import": "./src/hello1.mjs",
+    "require": "./src/hello1.js",
+    "node": "./src/hello1.mjs",
+    "default": "./src/hello1.js"
+  },
+  "types": "./src/hello1.d.ts",
+  "files": [
+    "src",
+    "package.json",
+    "README.md",
+    "LICENSE"
+  ]
+}
