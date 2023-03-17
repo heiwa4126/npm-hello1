@@ -1,6 +1,6 @@
 {
   "name": "@heiwa4126/hello1",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "An module example.",
   "keywords": [
     "demo"
@@ -28,8 +28,12 @@
   "types": "./src/hello1.d.ts",
   "files": [
     "src",
+    "examples/hello1.js",
     "package.json",
     "README.md",
     "LICENSE"
-  ]
+  ],
+  "bin": {
+    "hello1": "./examples/hello1.js"
+  }
 }
