@@ -28,8 +28,8 @@ import { hello1 } from "@heiwa4126/hello1";
 console.log(hello1());
 ```
 
-他 `npx @heiwa4126/hello1` で `hello` が出力される。  
-Also, `npx @heiwa4126/hello1` outputs `hello`.
+Also, `npx @heiwa4126/hello1` outputs `hello`.  
+他 `npx @heiwa4126/hello1` で `hello` が出力される。
 
-また、`npm -i @heiwa4126/hello1` で `heiwa4126-hello1` がインストールされ、実行すると `hello` が出力される。  
-Also, `npm -i @heiwa4126/hello1` installs `heiwa4126-hello1`, and running it outputs `hello`.
+Also, `npm -i @heiwa4126/hello1` installs `heiwa4126-hello1`, and running it outputs `hello`.  
+また、`npm -i @heiwa4126/hello1` で `heiwa4126-hello1` がインストールされ、実行すると `hello` が出力される。
