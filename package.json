@@ -1,6 +1,6 @@
 {
   "name": "@heiwa4126/hello1",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "An module example.",
   "keywords": [
     "demo"
@@ -8,7 +8,8 @@
   "scripts": {
     "test": "jest",
     "example:hello1_cjs": "node examples/hello1.js",
-    "example:hello1_mjs": "node examples/hello1.mjs"
+    "example:hello1_mjs": "node examples/hello1.mjs",
+    "example": "node examples/hello1.js && node examples/hello1.mjs"
   },
   "engines": {
     "node": ">=18.x",
@@ -27,20 +28,17 @@
   },
   "exports": {
     "import": "./src/hello1.mjs",
-    "require": "./src/hello1.js",
-    "node": "./src/hello1.mjs",
-    "default": "./src/hello1.js"
+    "require": "./src/hello1.js"
   },
   "types": "./src/hello1.d.ts",
   "files": [
     "src",
     "examples/hello1.js",
-    "package.json",
-    "README.md",
-    "LICENSE"
+    "README.md"
   ],
   "bin": {
-    "heiwa4126-hello1": "./examples/hello1.js"
+    "heiwa4126-hello1": "./examples/hello1.js",
+    "heiwa4126-hello1-mjs": "./examples/hello1.mjs"
   },
   "devDependencies": {
     "jest": "^29.5.0"
