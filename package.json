@@ -1,6 +1,6 @@
 {
   "name": "@heiwa4126/hello1",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "description": "An module example.",
   "keywords": [
     "demo"
@@ -30,6 +30,7 @@
     "import": "./src/hello1.mjs",
     "require": "./src/hello1.js"
   },
+  "main": "./src/hello1.js",
   "types": "./src/hello1.d.ts",
   "files": [
     "src",
