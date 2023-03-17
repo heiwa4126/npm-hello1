@@ -1,5 +1,5 @@
-const { hello } = require("../src/hello1");
+const { hello1 } = require("../src/hello1");
 
 test("test hello1()", () => {
-  expect(hello()).toBe("hello");
+  expect(hello1()).toBe("hello");
 });
