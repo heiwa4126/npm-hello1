@@ -1,6 +1,6 @@
 {
   "name": "@heiwa4126/hello1",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "An module example.",
   "keywords": [
     "demo"
@@ -10,14 +10,20 @@
     "example:hello1_cjs": "node examples/hello1.js",
     "example:hello1_mjs": "node examples/hello1.mjs"
   },
+  "engines": {
+    "node": ">=18.x",
+    "npm": ">=8.x"
+  },
   "author": "heiwa4126@gmail.com",
   "license": "ISC",
-  "devDependencies": {
-    "jest": "^29.5.0"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/heiwa4126/npm-hello1"
+  },
+  "homepage": "https://github.com/heiwa4126/npm-hello1#readme",
+  "bugs": {
+    "url": "https://github.com/heiwa4126/npm-hello1/issues",
+    "email": "heiwa4126@gmail.com"
   },
   "exports": {
     "import": "./src/hello1.mjs",
@@ -34,6 +40,9 @@
     "LICENSE"
   ],
   "bin": {
-    "hello1": "./examples/hello1.js"
+    "@heiwa4126/hello1": "./examples/hello1.js"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0"
   }
 }
