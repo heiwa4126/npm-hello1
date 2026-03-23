@@ -40,6 +40,6 @@
     "heiwa4126-hello1": "./examples/hello1.js"
   },
   "devDependencies": {
-    "jest": "^29.5.0"
+    "jest": "^29.7.0"
   }
 }
