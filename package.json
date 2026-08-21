@@ -1,45 +1,45 @@
 {
-  "name": "@heiwa4126/hello1",
-  "version": "1.0.12",
-  "description": "An module example.",
-  "keywords": [
-    "demo"
-  ],
-  "scripts": {
-    "test": "jest",
-    "example:hello1_cjs": "node examples/hello1.js",
-    "example:hello1_mjs": "node examples/hello1.mjs",
-    "example": "node examples/hello1.js && node examples/hello1.mjs"
-  },
-  "engines": {
-    "node": ">=18.x",
-    "npm": ">=8.x"
-  },
-  "author": "heiwa4126@gmail.com",
-  "license": "ISC",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/heiwa4126/npm-hello1"
-  },
-  "homepage": "https://github.com/heiwa4126/npm-hello1#readme",
-  "bugs": {
-    "url": "https://github.com/heiwa4126/npm-hello1/issues",
-    "email": "heiwa4126@gmail.com"
-  },
-  "exports": {
-    "import": "./src/hello1.mjs",
-    "require": "./src/hello1.js"
-  },
-  "main": "./src/hello1.js",
-  "types": "./src/hello1.d.ts",
-  "files": [
-    "src",
-    "README.md"
-  ],
-  "bin": {
-    "heiwa4126-hello1": "./examples/hello1.js"
-  },
-  "devDependencies": {
-    "jest": "^29.7.0"
-  }
+	"name": "@heiwa4126/hello1",
+	"version": "1.0.12",
+	"description": "An module example.",
+	"keywords": [
+		"demo"
+	],
+	"homepage": "https://github.com/heiwa4126/npm-hello1#readme",
+	"bugs": {
+		"url": "https://github.com/heiwa4126/npm-hello1/issues",
+		"email": "heiwa4126@gmail.com"
+	},
+	"license": "ISC",
+	"author": "heiwa4126@gmail.com",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/heiwa4126/npm-hello1"
+	},
+	"bin": {
+		"heiwa4126-hello1": "./examples/hello1.js"
+	},
+	"files": [
+		"src",
+		"README.md"
+	],
+	"main": "./src/hello1.js",
+	"types": "./src/hello1.d.ts",
+	"exports": {
+		"import": "./src/hello1.mjs",
+		"require": "./src/hello1.js"
+	},
+	"scripts": {
+		"test": "jest",
+		"example:hello1_cjs": "node examples/hello1.js",
+		"example:hello1_mjs": "node examples/hello1.mjs",
+		"example": "node examples/hello1.js && node examples/hello1.mjs"
+	},
+	"devDependencies": {
+		"jest": "^29.7.0"
+	},
+	"engines": {
+		"node": ">=18.x",
+		"npm": ">=8.x"
+	}
 }
