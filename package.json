@@ -36,7 +36,7 @@
 		"example": "node examples/hello1.js && node examples/hello1.mjs"
 	},
 	"devDependencies": {
-		"jest": "^29.7.0"
+		"jest": "^30.4.2"
 	},
 	"engines": {
 		"node": ">=18.x",
